@@ -4,7 +4,7 @@ class EmpApp{
         e1.id = 11;
         e1.name ="hi";
         System.out.println(e1.id);
-        System.out.println(e2.name);
+        System.out.println(e1.name);
         e1.work();
 
         Employee e2;
