@@ -25,7 +25,7 @@ class Add{
     }       
 }
 
-class AdditionOverload{
+public class AdditionOverload{
     public static void main(String[] args) {
         Add a1=new Add();
         a1.add(10,20,2.5);
