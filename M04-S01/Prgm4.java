@@ -3,9 +3,9 @@ class Prgm4{
      String s1 = new String("Java");
      String s2 = new String("Java");
      if(s1.equals(s2)){
-         System.out.println("Strings are same");
+      System.out.println("Strings are same");
         } else {
             System.out.println("Strings are same");
-     }
+            }
     }
 }
