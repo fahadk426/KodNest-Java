@@ -1,0 +1,19 @@
+class StringB2{
+    public static void main(String[] args) {
+        StringBuilder sb = new StringBuilder("Java");
+        sb.ensureCapacity(100);
+        System.out.println(sb.capacity());
+        System.out.println(sb);
+        sb.append("Program");
+        System.out.println(sb);
+
+        sb.insert(0, "Learn ");
+        System.out.println(sb);
+
+        sb.delete(0, 2); //stop -1(stops at 1)
+        System.out.println(sb);
+
+        sb.reverse();
+        System.out.println(sb);
+    }
+}
